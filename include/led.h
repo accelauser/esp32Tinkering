@@ -1,4 +1,6 @@
 #include <driver/ledc.h> //https://docs.espressif.com/projects/arduino-esp32/en/latest/api/ledc.html
+#include <Arduino.h>
+
 
 #define redPin 15
 #define greenPin 16

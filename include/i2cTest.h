@@ -3,13 +3,11 @@
 // i2c adress 0x3C
 
 void i2cScan() {
-  Serial.begin (9600);
-
   // Leonardo: wait for serial port to connect
   while (!Serial) 
     {
     }
-
+  delay(3000);
   Serial.println ();
   Serial.println ("I2C scanner. Scanning ...");
   byte count = 0;
